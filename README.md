@@ -1,5 +1,7 @@
 # faceRecognitionDemo
-一个教学演示用的人脸识别案例 使用步骤
+一个教学演示用的人脸识别案例 
+修改自bilibili博主教程，https://www.bilibili.com/video/BV15v411C73P
+使用步骤
 ## 1. 安装并激活Python虚拟环境
 ### 用virtualenv创建虚拟环境
 ```python
