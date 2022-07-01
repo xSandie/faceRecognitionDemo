@@ -6,7 +6,6 @@
 
 # 经测试 pymssql2.1.4+python3.5不会发生以上乱码问题
 
-import psycopg2
 import sqlite3
 
 
