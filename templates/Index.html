@@ -1,0 +1,32 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>人脸识别对比</title>
+    <link rel="stylesheet" href="/static/Css/Index.css" media="all">
+    <link href="//unpkg.com/layui@2.7.2/dist/css/layui.css" rel="stylesheet">
+    <script src="//unpkg.com/layui@2.7.2/dist/layui.js"></script>
+    <script src="/static/Js/jquery-3.1.1.min.js" charset="utf-8"></script>
+    <script src="/static/Js/Index.js" charset="utf-8"></script>
+</head>
+<body>
+    <div class="layui-row bigdiv">
+        <div class="layui-col-md1 height"></div>
+        <div class="layui-col-md10 centerdiv">
+            <div class="tablediv">
+                <fieldset class="layui-elem-field site-demo-button" style="margin-top: 20px; padding: 10px">
+                <legend>操作台</legend>
+                  <div>
+                    <button id="upload" type="button" class="layui-btn layui-btn-primary">人脸上传</button>
+                    <button id="check" type="button" class="layui-btn layui-btn-primary">人脸对比</button>
+                  </div>
+                </fieldset>
+            </div>
+            <div class="tablediv">
+                <table class="layui-hide" id="datatable"></table>
+            </div>
+        </div>
+        <div class="layui-col-md1 height"></div>
+    </div>
+</body>
+</html>

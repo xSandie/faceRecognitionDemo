@@ -1,0 +1,26 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>人脸上传</title>
+        <link href="//unpkg.com/layui@2.7.2/dist/css/layui.css" rel="stylesheet">
+    <script src="//unpkg.com/layui@2.7.2/dist/layui.js"></script>
+    <script src="/static/Js/jquery-3.1.1.min.js" charset="utf-8"></script>
+    <script src="/static/Js/Upload.js" charset="utf-8"></script>
+</head>
+<body>
+    <div id="uploadbigdiv" style="width:450px;height:330px;margin: 0 auto;padding: 10px;">
+        <div style="width: 120px;margin: 0 auto">
+          <input type="text" id="name" autocomplete="off" placeholder="姓名" class="layui-input">
+            <br/>
+        </div>
+        <div class="layui-upload" style="margin:0 auto;width:120px">
+          <button type="button" class="layui-btn" id="btnupload">上传人脸图片</button>
+          <div class="layui-upload-list">
+            <img class="layui-upload-img" style="width:118px;" id="demo1">
+            <p id="demoText"></p>
+          </div>
+        </div>
+    </div>
+</body>
+</html>
